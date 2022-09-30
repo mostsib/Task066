@@ -3,10 +3,10 @@
 // M = 4; N = 8. -> 30
 
 Console.WriteLine("Введите натуральное число  M:");
-int number1 = int.Parse(Console.ReadLine());
+int number1 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите натуральное число  N:");
-int number2 = int.Parse(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
 
 
 void GapNumberSum (int number1, int number2, int sum)
